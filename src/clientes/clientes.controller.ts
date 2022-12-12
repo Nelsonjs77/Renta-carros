@@ -22,7 +22,7 @@ export class ClientesController {
     return this.clientesService.findOne(id);
   }
 
-  @Patch(':id')
+  /* @Patch(':id')
   update(@Param('id', ParseUUIDPipe) id: string, @Body() updateClienteDto: UpdateClienteDto) {
     return this.clientesService.update(id, updateClienteDto);
   }
@@ -30,5 +30,5 @@ export class ClientesController {
   @Delete(':id')
   remove(@Param('id', ParseUUIDPipe) id: string) {
     return this.clientesService.remove(id);
-  }
+  } */
 }
